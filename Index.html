@@ -1,12 +1,121 @@
 <!DOCTYPE html>
-<html>
+<html lang="de">
 <head>
-    <title>Meine Website</title>
+  <meta charset="UTF-8">
+  <title>Geo- & Heliozentrismus</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<h1>Hallo 👋</h1>
-<p>Das ist meine erste Website!</p>
+<header>
+  <h1>Geo- & Helio- Zentrismus</h1>
+  <p>THEMA: Gegenüberstellung der Weltbilder</p>
+  <p>ZEITRAUM: 2. Jh. n. Chr. – 20. Jh.</p>
+  <p>FACH: Physik</p>
+</header>
 
+<section>
+  <h2>01 / Die zwei Weltmodelle</h2>
+
+  <div class="grid">
+    <div class="card">
+      <h3>Geozentrisches Weltbild</h3>
+      <p><i>nach Claudius Ptolemäus (100–160 n. Chr.)</i></p>
+
+      <div class="orbit geo">
+        <div class="center earth"></div>
+        <div class="planet p1"></div>
+        <div class="planet p2"></div>
+        <div class="planet p3"></div>
+      </div>
+
+      <p>
+        Erde als unbewegliches Zentrum des Universums. Mond, Sonne und Planeten
+        bewegen sich auf Kristallkugeln (Sphären) um die Erde. Planeten auf kleinen
+        Kreisen (Epizyklen) auf einem großen Kreis (Deferent).
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Heliozentrisches Weltbild</h3>
+      <p><i>nach Johannes Kepler (1571–1630)</i></p>
+
+      <div class="orbit helio">
+        <div class="center sun"></div>
+        <div class="planet p1"></div>
+        <div class="planet p2"></div>
+        <div class="planet p3"></div>
+      </div>
+
+      <p>
+        Sonne im Mittelpunkt des Planetensystems. Planeten bewegen sich auf
+        elliptischen Bahnen um die Sonne. Mond umkreist die Erde.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>02 / Historischer Zeitstrahl</h2>
+
+  <div class="timeline">
+    <div>2. Jh.: Ptolemäus – geozentrisches Weltbild</div>
+    <div>Mittelalter: Dogmatisierung des Systems</div>
+    <div>15.–16. Jh.: Erste Zweifel</div>
+    <div>1543: Kopernikus – heliozentrisches Modell</div>
+    <div>1609: Galilei – Beobachtungen</div>
+    <div>1609–1619: Kepler – Planetengesetze</div>
+    <div>1687: Newton – Gravitation</div>
+    <div>18.–19. Jh.: Beweise für Erdbewegung</div>
+  </div>
+</section>
+
+<section>
+  <h2>03 / Geo vs. Helio</h2>
+
+  <table>
+    <tr>
+      <th>Körper</th>
+      <th>🌍 Geozentrisch</th>
+      <th>☀️ Heliozentrisch</th>
+    </tr>
+    <tr>
+      <td>Sonne</td>
+      <td>Kreisbewegung um Erde</td>
+      <td>Ruhend / Rotation</td>
+    </tr>
+    <tr>
+      <td>Erde</td>
+      <td>Unbeweglich</td>
+      <td>Rotation + Umlauf</td>
+    </tr>
+    <tr>
+      <td>Mond</td>
+      <td>Um Erde</td>
+      <td>Um Erde</td>
+    </tr>
+    <tr>
+      <td>Planeten</td>
+      <td>Epizyklen</td>
+      <td>Ellipsenbahnen</td>
+    </tr>
+    <tr>
+      <td>Fixsterne</td>
+      <td>Kristallkugel</td>
+      <td>Unterschiedliche Entfernungen</td>
+    </tr>
+  </table>
+</section>
+
+<section>
+  <h2>04 / Erklärvideo</h2>
+
+  <iframe width="560" height="315"
+    src="https://www.youtube.com/embed/0rHUDWjR5gg"
+    frameborder="0" allowfullscreen>
+  </iframe>
+</section>
+
+<script src="script.js"></script>
 </body>
 </html>
