@@ -103,3 +103,18 @@ td, th {
   transform: translateY(-8px) scale(1.01);
   box-shadow: 0 20px 40px rgba(0,0,0,0.1);
 }
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 1px;
+}
+body {
+  font-family: Arial, sans-serif;
+}
+h1 {
+  font-size: 64px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+header {
+  padding: 100px 20px;
+}
